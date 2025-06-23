@@ -69,6 +69,7 @@ git lfs install
 
 # 7️⃣ Clone the base Llama-3.2-11B-Vision-Instruct model repository from Hugging Face
 git clone https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct
+```
 
 ---
 
