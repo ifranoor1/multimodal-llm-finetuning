@@ -192,9 +192,10 @@ steps, losses = [], []
 with open("step_logs.jsonl", "r") as f: #save the loss per steps in to jsonl file
     for line in f:
         log = json.loads(line)
-        if "loss" in log:
-            steps.append(log["step"])
-            losses.append(log["loss"])
+        if "step" in log and "loss" in log:
+            if log['step'] % 50 == 0:
+                steps.append(log["step"])
+                losses.append(log["loss"])
 
 plt.figure(figsize=(10, 6))
 plt.plot(steps, losses, marker='o', linestyle='-', color='blue')
