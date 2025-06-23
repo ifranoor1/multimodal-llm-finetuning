@@ -64,4 +64,49 @@ pip install unsloth transformers datasets nltk rouge-score matplotlib tqdm
 
 # Download NLTK tokenizer data
 python -c "import nltk; nltk.download('punkt')"
+ ```
+---
 
+## 6. How Finetuning is Done
+
+- **Load the pretrained multimodal LLM** using Unsloth’s `FastVisionModel`.
+- **Download [Radiology Mini](https://huggingface.co/datasets/unsloth/Radiology_mini)** and **[VQA-RAD](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)** datasets directly from Hugging Face.
+- **Convert each sample** into a unified conversational format combining text instructions/questions and images.
+- **Merge and shuffle** the datasets to ensure balanced training.
+- **Enable LoRA-based parameter-efficient finetuning** for both vision and language modules.
+- **Train the model** using `SFTTrainer` along with a multimodal-aware data collator.
+- **Log training step-wise metrics** to `.jsonl` for detailed tracking of loss and progress.
+- **Visualize training loss** over training steps and export the plot as a PNG for reporting.
+- **Save the final finetuned model and tokenizer** for future inference and sharing.
+
+---
+
+## 7. Evaluation
+
+The finetuned model is rigorously evaluated on held-out test splits of **VQA-RAD** and **Radiology Mini** datasets. For each test sample, the model generates an answer or descriptive caption, which is then compared with the ground truth reference text. The evaluation uses three key metrics:
+
+- **Exact Match (EM):** Checks whether the generated text exactly matches the reference after text normalization (lowercasing, punctuation removal, and whitespace cleanup).
+- **BLEU Score:** Measures n-gram overlap to assess how closely the generated text aligns with the reference text in terms of word choice and phrasing.
+- **ROUGE-L:** Computes the longest common subsequence between the generated and reference texts to evaluate content coverage and fluency.
+
+All predictions, scores, and summary statistics are logged to output files for transparency, reproducibility, and future analysis.
+
+---
+
+## 8. Download Finetuned Model and Tokenizer
+
+You can download the finetuned model and tokenizer from Google Drive for local inference or further research:
+
+- [Download Finetuned Model and tokenizer](https://drive.google.com/your_finetuned_model_link)
+
+After downloading, extract the files and update your `from_pretrained` paths in your scripts accordingly.
+
+---
+
+## Acknowledgements
+
+This project makes use of the following open-source tools and datasets:
+
+- [Unsloth](https://github.com/unslothai/unsloth) for efficient multimodal LLM training and inference.
+- [Hugging Face](https://huggingface.co/) for dataset hosting and easy API access.
+- [VQA-RAD](https://huggingface.co/datasets/flaviagiammarino/vqa-rad) and [Radiology Mini](https://huggingface.co/datasets/unsloth/Radiology_mini) for advancing multimodal medical AI research.
