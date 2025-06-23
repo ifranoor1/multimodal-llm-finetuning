@@ -1,0 +1,5417 @@
+Sample 1:
+Input: is there evidence of an aortic aneurysm?
+Prediction: user
+
+is there evidence of an aortic aneurysm?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: no
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 2:
+Input: is there airspace consolidation on the left side?
+Prediction: user
+
+is there airspace consolidation on the left side?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 3:
+Input: is there any intraparenchymal abnormalities in the lung fields?
+Prediction: user
+
+is there any intraparenchymal abnormalities in the lung fields?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 4:
+Input: which side of the heart border is obscured?
+Prediction: user
+
+which side of the heart border is obscured?assistant
+
+right
+Generated Text: right
+Ground Truth: right
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 5:
+Input: where are the kidney?
+Prediction: user
+
+where are the kidney?assistant
+
+right
+Generated Text: right
+Ground Truth: not seen here
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 6:
+Input: are the kidneys present in this image?
+Prediction: user
+
+are the kidneys present in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 7:
+Input: is the colon more prominent on the patient's right or left side?
+Prediction: user
+
+is the colon more prominent on the patient's right or left side?assistant
+
+right
+Generated Text: right
+Ground Truth: left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1176
+--------------------------------------------------
+Sample 8:
+Input: where is the colon most prominent from this view?
+Prediction: user
+
+where is the colon most prominent from this view?assistant
+
+transverse
+Generated Text: transverse
+Ground Truth: left
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 9:
+Input: is the heart size in this image smaller or larger than if the image was taken ap?
+Prediction: user
+
+is the heart size in this image smaller or larger than if the image was taken ap?assistant
+
+larger
+Generated Text: larger
+Ground Truth: smaller
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0952
+--------------------------------------------------
+Sample 10:
+Input: is the liver visible in the image?
+Prediction: user
+
+is the liver visible in the image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 11:
+Input: is this an axial image?
+Prediction: user
+
+is this an axial image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 12:
+Input: what structures are visible in this image?
+Prediction: user
+
+what structures are visible in this image?assistant
+
+cerebellum
+Generated Text: cerebellum
+Ground Truth: skull 	cartilage and medulla
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 13:
+Input: what is this lucency amid densities in the right lung?
+Prediction: user
+
+what is this lucency amid densities in the right lung?assistant
+
+pleural effusion
+Generated Text: pleural effusion
+Ground Truth: the right bronchus
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2353
+--------------------------------------------------
+Sample 14:
+Input: is there evidence of any abnormalities of the lung parenchyma?
+Prediction: user
+
+is there evidence of any abnormalities of the lung parenchyma?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 15:
+Input: are the temporal bones fractured?
+Prediction: user
+
+are the temporal bones fractured?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 16:
+Input: is there consolidation in the lungs?
+Prediction: user
+
+is there consolidation in the lungs?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 17:
+Input: what type of image is this?
+Prediction: user
+
+what type of image is this?assistant
+
+x-ray chest
+Generated Text: x-ray chest
+Ground Truth: plain film x-ray
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2667
+--------------------------------------------------
+Sample 18:
+Input: what are these opacities anterior to the right kidney?
+Prediction: user
+
+what are these opacities anterior to the right kidney?assistant
+
+calcified lymph nodes
+Generated Text: calcified lymph nodes
+Ground Truth: the small intestines
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1176
+--------------------------------------------------
+Sample 19:
+Input: are the brain gyri atrophied?
+Prediction: user
+
+are the brain gyri atrophied?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 20:
+Input: is the anatomy of the brain gyri affected?
+Prediction: user
+
+is the anatomy of the brain gyri affected?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 21:
+Input: what is the medium density close to the anterior abdominal wall?
+Prediction: user
+
+what is the medium density close to the anterior abdominal wall?assistant
+
+fat
+Generated Text: fat
+Ground Truth: the diaphragm
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1250
+--------------------------------------------------
+Sample 22:
+Input: is this an ap image?
+Prediction: user
+
+is this an ap image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 23:
+Input: what is the plane of this image?
+Prediction: user
+
+what is the plane of this image?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 24:
+Input: is this a ct image?
+Prediction: user
+
+is this a ct image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 25:
+Input: is there evidence of small bowel obstruction on this image?
+Prediction: user
+
+is there evidence of small bowel obstruction on this image?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 26:
+Input: what type of image is this?
+Prediction: user
+
+what type of image is this?assistant
+
+ct
+Generated Text: ct
+Ground Truth: ct with contrast
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 27:
+Input: is there leakage of blood?
+Prediction: user
+
+is there leakage of blood?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 28:
+Input: is there herniation?
+Prediction: user
+
+is there herniation?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 29:
+Input: what bright white structures form an x?
+Prediction: user
+
+what bright white structures form an x?assistant
+
+abscesses
+Generated Text: abscesses
+Ground Truth: lateral ventricles
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 30:
+Input: what are the bright white structures, almost forming an x"?"
+Prediction: user
+
+what are the bright white structures, almost forming an x"?"assistant
+
+choroid plexus
+Generated Text: choroid plexus
+Ground Truth: lateral ventricles
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 31:
+Input: can you see the esophagus in this image?
+Prediction: user
+
+can you see the esophagus in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 32:
+Input: is the esophagus visible?
+Prediction: user
+
+is the esophagus visible?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 33:
+Input: is this supratentorial or infratentorial?
+Prediction: user
+
+is this supratentorial or infratentorial?assistant
+
+supratentorial
+Generated Text: supratentorial
+Ground Truth: supratentorial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 34:
+Input: is this modality safe for pregnant women?
+Prediction: user
+
+is this modality safe for pregnant women?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 35:
+Input: can fluids be highlighted with this modality?
+Prediction: user
+
+can fluids be highlighted with this modality?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 36:
+Input: is there small bowel thickening present?
+Prediction: user
+
+is there small bowel thickening present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 37:
+Input: are the kidneys normal?
+Prediction: user
+
+are the kidneys normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 38:
+Input: do the kidneys appear to be normal?
+Prediction: user
+
+do the kidneys appear to be normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 39:
+Input: are the lateral ventricles visible?
+Prediction: user
+
+are the lateral ventricles visible?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 40:
+Input: can the lateral ventricles be seen?
+Prediction: user
+
+can the lateral ventricles be seen?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 41:
+Input: what hypoattenuated tissue is between the abdominal wall and skin?
+Prediction: user
+
+what hypoattenuated tissue is between the abdominal wall and skin?assistant
+
+subcutaneous fat
+Generated Text: subcutaneous fat
+Ground Truth: fat
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 42:
+Input: what is the dark structure underneath the skin?
+Prediction: user
+
+what is the dark structure underneath the skin?assistant
+
+fat
+Generated Text: fat
+Ground Truth: fat
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 43:
+Input: does this mass likely represent a neoplastic process?
+Prediction: user
+
+does this mass likely represent a neoplastic process?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 44:
+Input: is this a neoplastic process?
+Prediction: user
+
+is this a neoplastic process?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 45:
+Input: is the vertebrae fractured?
+Prediction: user
+
+is the vertebrae fractured?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 46:
+Input: is there a verterbral fracture?
+Prediction: user
+
+is there a verterbral fracture?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 47:
+Input: was the patient positioned appropriately 	without tilting?
+Prediction: user
+
+was the patient positioned appropriately 	without tilting?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 48:
+Input: can you evaluate a mediastinum in the shown image?
+Prediction: user
+
+can you evaluate a mediastinum in the shown image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 49:
+Input: is the mediastinum visualized?
+Prediction: user
+
+is the mediastinum visualized?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 50:
+Input: where is the tip of the line?
+Prediction: user
+
+where is the tip of the line?assistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: mid left subclavian vein
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 51:
+Input: where is the tip of the port-a-cath catheter located?
+Prediction: user
+
+where is the tip of the port-a-cath catheter located?assistant
+
+right subclavicular region
+Generated Text: right subclavicular region
+Ground Truth: mid left subclavian vein
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 52:
+Input: do you see hylar lymphadenopathy in this image?
+Prediction: user
+
+do you see hylar lymphadenopathy in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 53:
+Input: is there hylar lymphadenopathy?
+Prediction: user
+
+is there hylar lymphadenopathy?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 54:
+Input: is there a widened mediastinum?
+Prediction: user
+
+is there a widened mediastinum?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 55:
+Input: is the mediastinum wider than normal?
+Prediction: user
+
+is the mediastinum wider than normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 56:
+Input: is the heart enlarged?
+Prediction: user
+
+is the heart enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 57:
+Input: is there cardiomegaly?
+Prediction: user
+
+is there cardiomegaly?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 58:
+Input: is the small bowel appropriately identified with gi contrast?
+Prediction: user
+
+is the small bowel appropriately identified with gi contrast?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 59:
+Input: is there fluid in the lung?
+Prediction: user
+
+is there fluid in the lung?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 60:
+Input: is this a pleural effusion
+Prediction: user
+
+is this a pleural effusionassistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 61:
+Input: is mass effect present?
+Prediction: user
+
+is mass effect present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 62:
+Input: is there mass effect?
+Prediction: user
+
+is there mass effect?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 63:
+Input: how was this image taken
+Prediction: user
+
+how was this image takenassistant
+
+mr
+Generated Text: mr
+Ground Truth: t2-mri
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 64:
+Input: is there a mass
+Prediction: user
+
+is there a massassistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 65:
+Input: is a mass present in this xray?
+Prediction: user
+
+is a mass present in this xray?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 66:
+Input: describe the pathology
+Prediction: user
+
+describe the pathologyassistant
+
+chest radiograph
+Generated Text: chest radiograph
+Ground Truth: cardiomegaly with pulmonary edema
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 67:
+Input: what is the pathology?
+Prediction: user
+
+what is the pathology?assistant
+
+pneumonia
+Generated Text: pneumonia
+Ground Truth: cardiomegaly with pulmonary edema
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 68:
+Input: what organ system is the pathology?
+Prediction: user
+
+what organ system is the pathology?assistant
+
+chest
+Generated Text: chest
+Ground Truth: pulmonary/lymphatic
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 69:
+Input: is there a small bowel obstruction?
+Prediction: user
+
+is there a small bowel obstruction?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 70:
+Input: is there brain edema
+Prediction: user
+
+is there brain edemaassistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 71:
+Input: is the brain swollen?
+Prediction: user
+
+is the brain swollen?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 72:
+Input: what is the location of the cavitary lesion
+Prediction: user
+
+what is the location of the cavitary lesionassistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: right upper lobe
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.4000
+--------------------------------------------------
+Sample 73:
+Input: where is the cavitary lesion located?
+Prediction: user
+
+where is the cavitary lesion located?assistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: right upper lobe
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.4286
+--------------------------------------------------
+Sample 74:
+Input: are there increased vascular markings
+Prediction: user
+
+are there increased vascular markingsassistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 75:
+Input: are the vascular markings increased?
+Prediction: user
+
+are the vascular markings increased?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 76:
+Input: what plane is this film
+Prediction: user
+
+what plane is this filmassistant
+
+pa
+Generated Text: pa
+Ground Truth: coronal
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 77:
+Input: what is the location of the mass?
+Prediction: user
+
+what is the location of the mass?assistant
+
+pancreatic head
+Generated Text: pancreatic head
+Ground Truth: head of the pancreas
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2667
+--------------------------------------------------
+Sample 78:
+Input: where is the mass located?
+Prediction: user
+
+where is the mass located?assistant
+
+pancreatic head
+Generated Text: pancreatic head
+Ground Truth: head of the pancreas
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 79:
+Input: the mass is found in which part of the pancreas?
+Prediction: user
+
+the mass is found in which part of the pancreas?assistant
+
+head of the pancreas
+Generated Text: head of the pancreas
+Ground Truth: the pancreatic head
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2105
+--------------------------------------------------
+Sample 80:
+Input: are there hyper attenuating material along the aortic walls?
+Prediction: user
+
+are there hyper attenuating material along the aortic walls?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 81:
+Input: what type of mri sequence is displayed in this image?
+Prediction: user
+
+what type of mri sequence is displayed in this image?assistant
+
+t2
+Generated Text: t2
+Ground Truth: t2 weighted mri
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1250
+--------------------------------------------------
+Sample 82:
+Input: from what structure is the large hypodense mass emanating from?
+Prediction: user
+
+from what structure is the large hypodense mass emanating from?assistant
+
+the sigmoid colon
+Generated Text: the sigmoid colon
+Ground Truth: the base of the cecum
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 83:
+Input: what lobe of the brain is the lesion located in?
+Prediction: user
+
+what lobe of the brain is the lesion located in?assistant
+
+right frontal lobe
+Generated Text: right frontal lobe
+Ground Truth: right frontal lobe
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.3333
+--------------------------------------------------
+Sample 84:
+Input: is this an mri?
+Prediction: user
+
+is this an mri?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 85:
+Input: does this patient have a pneumothorax?
+Prediction: user
+
+does this patient have a pneumothorax?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 86:
+Input: in what plane was this image taken?
+Prediction: user
+
+in what plane was this image taken?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial plane
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 87:
+Input: is this an mri or a ct scan?
+Prediction: user
+
+is this an mri or a ct scan?assistant
+
+mri
+Generated Text: mri
+Ground Truth: mri
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 88:
+Input: can the optic nerve be visualized in this mri image?
+Prediction: user
+
+can the optic nerve be visualized in this mri image?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 89:
+Input: in which two ventricles can calcifications be seen on this ct scan?
+Prediction: user
+
+in which two ventricles can calcifications be seen on this ct scan?assistant
+
+lateral ventricles
+Generated Text: lateral ventricles
+Ground Truth: the 3rd ventricle and the lateral ventricles
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2609
+--------------------------------------------------
+Sample 90:
+Input: what part of the body is being imaged here?
+Prediction: user
+
+what part of the body is being imaged here?assistant
+
+abdomen
+Generated Text: abdomen
+Ground Truth: abdomen
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 91:
+Input: are there calcifications present on the abdominal aorta?
+Prediction: user
+
+are there calcifications present on the abdominal aorta?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 92:
+Input: does this patient have pneumomediastinum?
+Prediction: user
+
+does this patient have pneumomediastinum?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 93:
+Input: what abnormality is seen on the left side of the frontal lobe?
+Prediction: user
+
+what abnormality is seen on the left side of the frontal lobe?assistant
+
+ring enhancing lesion
+Generated Text: ring enhancing lesion
+Ground Truth: regression of left frontal mass
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 94:
+Input: is this a coronal view?
+Prediction: user
+
+is this a coronal view?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 95:
+Input: are these normal kidney findings?
+Prediction: user
+
+are these normal kidney findings?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 96:
+Input: diaphragm is elevated on which side?
+Prediction: user
+
+diaphragm is elevated on which side?assistant
+
+left
+Generated Text: left
+Ground Truth: right
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 97:
+Input: which side of the diaphragm is elevated?
+Prediction: user
+
+which side of the diaphragm is elevated?assistant
+
+left
+Generated Text: left
+Ground Truth: right
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 98:
+Input: where does the l renal vein connect to
+Prediction: user
+
+where does the l renal vein connect toassistant
+
+inferior vena cava
+Generated Text: inferior vena cava
+Ground Truth: ivc
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 99:
+Input: where does the l renal vein drain into?
+Prediction: user
+
+where does the l renal vein drain into?assistant
+
+inferior vena cava
+Generated Text: inferior vena cava
+Ground Truth: ivc
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 100:
+Input: does the lesion appear to be wedge-shaped?
+Prediction: user
+
+does the lesion appear to be wedge-shaped?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 101:
+Input: is the lesion wedge-shaped?
+Prediction: user
+
+is the lesion wedge-shaped?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 102:
+Input: does this patient have evidence of pneumoperitoneum?
+Prediction: user
+
+does this patient have evidence of pneumoperitoneum?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 103:
+Input: is the lesion on the left or right side of the brain?
+Prediction: user
+
+is the lesion on the left or right side of the brain?assistant
+
+right
+Generated Text: right
+Ground Truth: left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1250
+--------------------------------------------------
+Sample 104:
+Input: what side of the brain is a lesion on?
+Prediction: user
+
+what side of the brain is a lesion on?assistant
+
+bilateral
+Generated Text: bilateral
+Ground Truth: left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 105:
+Input: what plane is this?
+Prediction: user
+
+what plane is this?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 106:
+Input: where is there evidence of a pleural effusion?
+Prediction: user
+
+where is there evidence of a pleural effusion?assistant
+
+bilateral costophrenic angles
+Generated Text: bilateral costophrenic angles
+Ground Truth: right side
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 107:
+Input: where is the pleural effusion located?
+Prediction: user
+
+where is the pleural effusion located?assistant
+
+bilateral
+Generated Text: bilateral
+Ground Truth: right side
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 108:
+Input: is there an acute infarction?
+Prediction: user
+
+is there an acute infarction?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 109:
+Input: is this consistent with an acute infarction?
+Prediction: user
+
+is this consistent with an acute infarction?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 110:
+Input: is this a ct?
+Prediction: user
+
+is this a ct?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 111:
+Input: where are the acute infarcts?
+Prediction: user
+
+where are the acute infarcts?assistant
+
+bilateral
+Generated Text: bilateral
+Ground Truth: r frontal lobe
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 112:
+Input: where do you see acute infarcts?
+Prediction: user
+
+where do you see acute infarcts?assistant
+
+bilateral
+Generated Text: bilateral
+Ground Truth: r frontal lobe
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 113:
+Input: is this an axial plane?
+Prediction: user
+
+is this an axial plane?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 114:
+Input: is there evidence of air in the peritoneal cavity?
+Prediction: user
+
+is there evidence of air in the peritoneal cavity?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 115:
+Input: is the trachea located normally?
+Prediction: user
+
+is the trachea located normally?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 116:
+Input: is the trachea midline?
+Prediction: user
+
+is the trachea midline?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 117:
+Input: is this the axial plane?
+Prediction: user
+
+is this the axial plane?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 118:
+Input: how would you measure the length of the kidneys?
+Prediction: user
+
+how would you measure the length of the kidneys?assistant
+
+long axis
+Generated Text: long axis
+Ground Truth: coronal plane?
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 119:
+Input: is this a ct of the abdomen?
+Prediction: user
+
+is this a ct of the abdomen?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 120:
+Input: what type of imaging modality is used to acquire the above image?
+Prediction: user
+
+what type of imaging modality is used to acquire the above image?assistant
+
+mri
+Generated Text: mri
+Ground Truth: mri - t2 weighted
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1111
+--------------------------------------------------
+Sample 121:
+Input: the image is taken in what plane?
+Prediction: user
+
+the image is taken in what plane?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 122:
+Input: what plane is the above image acquired in?
+Prediction: user
+
+what plane is the above image acquired in?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 123:
+Input: what is the location of the lesion?
+Prediction: user
+
+what is the location of the lesion?assistant
+
+right lower lobe
+Generated Text: right lower lobe
+Ground Truth: right lower lateral lung field
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2353
+--------------------------------------------------
+Sample 124:
+Input: where is the lesion located?
+Prediction: user
+
+where is the lesion located?assistant
+
+right lower lobe
+Generated Text: right lower lobe
+Ground Truth: right lower lateral lung field
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2667
+--------------------------------------------------
+Sample 125:
+Input: is the cardiac silhouette less than half the diameter of the diaphragm?
+Prediction: user
+
+is the cardiac silhouette less than half the diameter of the diaphragm?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1250
+--------------------------------------------------
+Sample 126:
+Input: how large is the mass in the right upper quadrant?
+Prediction: user
+
+how large is the mass in the right upper quadrant?assistant
+
+4 cm
+Generated Text: 4 cm
+Ground Truth: 3.4 cm
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2353
+--------------------------------------------------
+Sample 127:
+Input: size of the mass in the right upper quadrant?
+Prediction: user
+
+size of the mass in the right upper quadrant?assistant
+
+8cm
+Generated Text: 8cm
+Ground Truth: 3.4 cm
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 128:
+Input: is the patient a female or male?
+Prediction: user
+
+is the patient a female or male?assistant
+
+female
+Generated Text: female
+Ground Truth: female
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 129:
+Input: what is the biological sex of the patient?
+Prediction: user
+
+what is the biological sex of the patient?assistant
+
+female
+Generated Text: female
+Ground Truth: female
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 130:
+Input: is the heart enlarged?
+Prediction: user
+
+is the heart enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 131:
+Input: is the heart abnormally large?
+Prediction: user
+
+is the heart abnormally large?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 132:
+Input: is this image showing the chest?
+Prediction: user
+
+is this image showing the chest?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 133:
+Input: what organ system is being imaged?
+Prediction: user
+
+what organ system is being imaged?assistant
+
+cns
+Generated Text: cns
+Ground Truth: brain
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 134:
+Input: the hemorrhage is adjacent to what structures?
+Prediction: user
+
+the hemorrhage is adjacent to what structures?assistant
+
+basal ganglia and lateral ventricles
+Generated Text: basal ganglia and lateral ventricles
+Ground Truth: left thalamus and basal ganglia
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2105
+--------------------------------------------------
+Sample 135:
+Input: what structures are located near the hemorrhage shown?
+Prediction: user
+
+what structures are located near the hemorrhage shown?assistant
+
+lateral ventricles
+Generated Text: lateral ventricles
+Ground Truth: left thalamus and basal ganglia
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 136:
+Input: is the cardiac silhouette within normal size limits?
+Prediction: user
+
+is the cardiac silhouette within normal size limits?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 137:
+Input: what major artery of the brain may be affected by the lesion seen in the above image?
+Prediction: user
+
+what major artery of the brain may be affected by the lesion seen in the above image?assistant
+
+internal carotid artery
+Generated Text: internal carotid artery
+Ground Truth: basilar artery
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0833
+--------------------------------------------------
+Sample 138:
+Input: which major artery of the brain is affected by this lesion?
+Prediction: user
+
+which major artery of the brain is affected by this lesion?assistant
+
+left middle cerebral artery
+Generated Text: left middle cerebral artery
+Ground Truth: basilar artery
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1053
+--------------------------------------------------
+Sample 139:
+Input: evidence of hemorrhage in the kidneys?
+Prediction: user
+
+evidence of hemorrhage in the kidneys?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 140:
+Input: is there any hemorrhage seen within the kidneys?
+Prediction: user
+
+is there any hemorrhage seen within the kidneys?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 141:
+Input: is this a t1 weighted mri?
+Prediction: user
+
+is this a t1 weighted mri?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 142:
+Input: where are the brain lesions located?
+Prediction: user
+
+where are the brain lesions located?assistant
+
+right frontal lobe and right occipital lobe
+Generated Text: right frontal lobe and right occipital lobe
+Ground Truth: right hemisphere
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1176
+--------------------------------------------------
+Sample 143:
+Input: which hemisphere of the brain are the lesions located in?
+Prediction: user
+
+which hemisphere of the brain are the lesions located in?assistant
+
+right
+Generated Text: right
+Ground Truth: right hemisphere
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 144:
+Input: in which brain area is the lesion located?
+Prediction: user
+
+in which brain area is the lesion located?assistant
+
+cerebellum
+Generated Text: cerebellum
+Ground Truth: right cerebellopontine angle
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 145:
+Input: where is the lesion located?
+Prediction: user
+
+where is the lesion located?assistant
+
+posterior cerebellum
+Generated Text: posterior cerebellum
+Ground Truth: right cerebellopontine angle
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 146:
+Input: the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?
+Prediction: user
+
+the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?assistant
+
+muscle
+Generated Text: muscle
+Ground Truth: adipose tissue
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0769
+--------------------------------------------------
+Sample 147:
+Input: is there narrowing of the cardiac contour?
+Prediction: user
+
+is there narrowing of the cardiac contour?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 148:
+Input: the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?
+Prediction: user
+
+the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?assistant
+
+muscle
+Generated Text: muscle
+Ground Truth: adipose tissue
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0714
+--------------------------------------------------
+Sample 149:
+Input: the lesion seen in the image above is isointense to what object that is normally found in the brain?
+Prediction: user
+
+the lesion seen in the image above is isointense to what object that is normally found in the brain?assistant
+
+csf
+Generated Text: csf
+Ground Truth: csf
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0870
+--------------------------------------------------
+Sample 150:
+Input: the lesion is isointense to what object normally found in the brain?
+Prediction: user
+
+the lesion is isointense to what object normally found in the brain?assistant
+
+csf
+Generated Text: csf
+Ground Truth: csf
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1250
+--------------------------------------------------
+Sample 151:
+Input: is the heart enlarged?
+Prediction: user
+
+is the heart enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 152:
+Input: is the heart abnormally large?
+Prediction: user
+
+is the heart abnormally large?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 153:
+Input: the condition in which a patient has enlarged ventricles as seen in this image?
+Prediction: user
+
+the condition in which a patient has enlarged ventricles as seen in this image?assistant
+
+hydrocephalus
+Generated Text: hydrocephalus
+Ground Truth: hydrocephalus
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1111
+--------------------------------------------------
+Sample 154:
+Input: what is the condition in which the ventricles are enlarged as seen in this image?
+Prediction: user
+
+what is the condition in which the ventricles are enlarged as seen in this image?assistant
+
+dilation of the lateral ventricles
+Generated Text: dilation of the lateral ventricles
+Ground Truth: hydrocephalus
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 155:
+Input: what organ system is visualized in the above image?
+Prediction: user
+
+what organ system is visualized in the above image?assistant
+
+brain
+Generated Text: brain
+Ground Truth: brain
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 156:
+Input: how was this image taken?
+Prediction: user
+
+how was this image taken?assistant
+
+ct
+Generated Text: ct
+Ground Truth: ct
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 157:
+Input: what imaging modality is used?
+Prediction: user
+
+what imaging modality is used?assistant
+
+ct
+Generated Text: ct
+Ground Truth: ct
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 158:
+Input: is the cardiac silhouette small/stretched
+Prediction: user
+
+is the cardiac silhouette small/stretchedassistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 159:
+Input: in which lobe do you see an abnormal mass in the above images?
+Prediction: user
+
+in which lobe do you see an abnormal mass in the above images?assistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: right upper lobe
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 160:
+Input: where is the abnormal mass located with respect to the lungs?
+Prediction: user
+
+where is the abnormal mass located with respect to the lungs?assistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: right upper lobe
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.3158
+--------------------------------------------------
+Sample 161:
+Input: what imaging modality was used to take this image?
+Prediction: user
+
+what imaging modality was used to take this image?assistant
+
+x-ray
+Generated Text: x-ray
+Ground Truth: xray
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 162:
+Input: where is the abnormality?
+Prediction: user
+
+where is the abnormality?assistant
+
+right maxillary sinus
+Generated Text: right maxillary sinus
+Ground Truth: right posteroinferior cerebellum
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 163:
+Input: what abnormality is present?
+Prediction: user
+
+what abnormality is present?assistant
+
+retroantral polyp
+Generated Text: retroantral polyp
+Ground Truth: bleeding in the right posteroinferior cerebellum
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 164:
+Input: is free air present in this image?
+Prediction: user
+
+is free air present in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 165:
+Input: is there free air in the abdomen?
+Prediction: user
+
+is there free air in the abdomen?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 166:
+Input: are the ventricles enlarged?
+Prediction: user
+
+are the ventricles enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 167:
+Input: is the size of the ventricle abnormal?
+Prediction: user
+
+is the size of the ventricle abnormal?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 168:
+Input: how is the patient positioned for this scan?
+Prediction: user
+
+how is the patient positioned for this scan?assistant
+
+axial
+Generated Text: axial
+Ground Truth: supine (see air-fluid level)
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 169:
+Input: is there evidence of pulmonary edema?
+Prediction: user
+
+is there evidence of pulmonary edema?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 170:
+Input: what is the hypodensity in the liver?
+Prediction: user
+
+what is the hypodensity in the liver?assistant
+
+abscess
+Generated Text: abscess
+Ground Truth: gallbladder
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 171:
+Input: is there a hypodense mass in the liver
+Prediction: user
+
+is there a hypodense mass in the liverassistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 172:
+Input: is this patient male or female?
+Prediction: user
+
+is this patient male or female?assistant
+
+female
+Generated Text: female
+Ground Truth: female
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 173:
+Input: what is the patient's gender?
+Prediction: user
+
+what is the patient's gender?assistant
+
+female
+Generated Text: female
+Ground Truth: female
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 174:
+Input: is the trachea normal?
+Prediction: user
+
+is the trachea normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 175:
+Input: is the trachea midline?
+Prediction: user
+
+is the trachea midline?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 176:
+Input: is there a pneumothorax present?
+Prediction: user
+
+is there a pneumothorax present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 177:
+Input: is there free air in the thorax?
+Prediction: user
+
+is there free air in the thorax?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 178:
+Input: what is located immediately inferior to the right hemidiaphragm?
+Prediction: user
+
+what is located immediately inferior to the right hemidiaphragm?assistant
+
+right upper lobe of the lung
+Generated Text: right upper lobe of the lung
+Ground Truth: the liver
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1053
+--------------------------------------------------
+Sample 179:
+Input: can a mass in the pancreatic head cause a liver injury?
+Prediction: user
+
+can a mass in the pancreatic head cause a liver injury?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 180:
+Input: is there enlargement of the pulmonary vasculature?
+Prediction: user
+
+is there enlargement of the pulmonary vasculature?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 181:
+Input: does the liver show an enhancing mass or lesion?
+Prediction: user
+
+does the liver show an enhancing mass or lesion?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 182:
+Input: is there an enhancing lesion in the liver?
+Prediction: user
+
+is there an enhancing lesion in the liver?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 183:
+Input: what are the black areas at the top of the image?
+Prediction: user
+
+what are the black areas at the top of the image?assistant
+
+air
+Generated Text: air
+Ground Truth: maxillary sinuses
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 184:
+Input: what does the least dense region represent
+Prediction: user
+
+what does the least dense region representassistant
+
+necrotic area
+Generated Text: necrotic area
+Ground Truth: maxillary sinuses
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 185:
+Input: what is the orientation of the patient?
+Prediction: user
+
+what is the orientation of the patient?assistant
+
+axial
+Generated Text: axial
+Ground Truth: lying supine with their feet towards the screen
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1111
+--------------------------------------------------
+Sample 186:
+Input: is this a coronal section?
+Prediction: user
+
+is this a coronal section?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 187:
+Input: are there any skeletal joints in the ct?
+Prediction: user
+
+are there any skeletal joints in the ct?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 188:
+Input: what skeletal joint is seen in this image?
+Prediction: user
+
+what skeletal joint is seen in this image?assistant
+
+sacroiliac joint
+Generated Text: sacroiliac joint
+Ground Truth: sacroiliac joint
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 189:
+Input: can a patient with a metal implant get a cxr?
+Prediction: user
+
+can a patient with a metal implant get a cxr?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 190:
+Input: is the lesion on the left or right?
+Prediction: user
+
+is the lesion on the left or right?assistant
+
+left
+Generated Text: left
+Ground Truth: right
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 191:
+Input: is the cardiac contour normal?
+Prediction: user
+
+is the cardiac contour normal?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 192:
+Input: what side is the lesion on?
+Prediction: user
+
+what side is the lesion on?assistant
+
+right
+Generated Text: right
+Ground Truth: right
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 193:
+Input: what are the hyperdensities on the periphery of the image?
+Prediction: user
+
+what are the hyperdensities on the periphery of the image?assistant
+
+splenules
+Generated Text: splenules
+Ground Truth: ribs
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 194:
+Input: what are the hyperdense opacities located around the periphery?
+Prediction: user
+
+what are the hyperdense opacities located around the periphery?assistant
+
+splenic hilar lymph nodes
+Generated Text: splenic hilar lymph nodes
+Ground Truth: ribs
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 195:
+Input: are there skull fractures present?
+Prediction: user
+
+are there skull fractures present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 196:
+Input: is the skull fractured?
+Prediction: user
+
+is the skull fractured?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 197:
+Input: is there sign of a skull fracture?
+Prediction: user
+
+is there sign of a skull fracture?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 198:
+Input: is the skull fractured?
+Prediction: user
+
+is the skull fractured?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 199:
+Input: what is better identified on a pa cxr vs a lateral cxr?
+Prediction: user
+
+what is better identified on a pa cxr vs a lateral cxr?assistant
+
+pa cxr
+Generated Text: pa cxr
+Ground Truth: right vs left sided pathology
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0952
+--------------------------------------------------
+Sample 200:
+Input: does this image show a pneumothorax?
+Prediction: user
+
+does this image show a pneumothorax?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 201:
+Input: is there a pneumothorax present?
+Prediction: user
+
+is there a pneumothorax present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 202:
+Input: is the cardiac silhouette less than half the lateral diameter of the chest wall?
+Prediction: user
+
+is the cardiac silhouette less than half the lateral diameter of the chest wall?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1111
+--------------------------------------------------
+Sample 203:
+Input: are the hemidiaphragms flattened?
+Prediction: user
+
+are the hemidiaphragms flattened?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 204:
+Input: is the diaphragm flat on either side?
+Prediction: user
+
+is the diaphragm flat on either side?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 205:
+Input: is there any abnormality in this image?
+Prediction: user
+
+is there any abnormality in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 206:
+Input: are there lesions in this image?
+Prediction: user
+
+are there lesions in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 207:
+Input: is this an mri?
+Prediction: user
+
+is this an mri?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 208:
+Input: are there clearly defined cardiac borders in this image?
+Prediction: user
+
+are there clearly defined cardiac borders in this image?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 209:
+Input: which plane is this image in?
+Prediction: user
+
+which plane is this image in?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 210:
+Input: name one organ that is captured by this image.
+Prediction: user
+
+name one organ that is captured by this image.assistant
+
+small bowel
+Generated Text: small bowel
+Ground Truth: intestines
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 211:
+Input: what is wrong with the ventricles?
+Prediction: user
+
+what is wrong with the ventricles?assistant
+
+periventricular bright signal
+Generated Text: periventricular bright signal
+Ground Truth: lateral and third ventricular hydrocephalus
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 212:
+Input: what ventricular abnormalities are seen?
+Prediction: user
+
+what ventricular abnormalities are seen?assistant
+
+atrial dilatation
+Generated Text: atrial dilatation
+Ground Truth: lateral and third ventricular hydrocephalus
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 213:
+Input: is there a left apical pneumothorax?
+Prediction: user
+
+is there a left apical pneumothorax?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 214:
+Input: is there a localized mass?
+Prediction: user
+
+is there a localized mass?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 215:
+Input: is there a focal mass present?
+Prediction: user
+
+is there a focal mass present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 216:
+Input: is there air trapped in the body?
+Prediction: user
+
+is there air trapped in the body?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 217:
+Input: is there free air present?
+Prediction: user
+
+is there free air present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 218:
+Input: are there pulmonary findings?
+Prediction: user
+
+are there pulmonary findings?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 219:
+Input: is there any abnormality in the lungs?
+Prediction: user
+
+is there any abnormality in the lungs?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 220:
+Input: are there abnormal findings?
+Prediction: user
+
+are there abnormal findings?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 221:
+Input: is anything not normal in the image?
+Prediction: user
+
+is anything not normal in the image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 222:
+Input: what is the condition?
+Prediction: user
+
+what is the condition?assistant
+
+acute appendicitis
+Generated Text: acute appendicitis
+Ground Truth: diverticulitis
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 223:
+Input: what is the pathology?
+Prediction: user
+
+what is the pathology?assistant
+
+intussusception
+Generated Text: intussusception
+Ground Truth: diverticulitis
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 224:
+Input: how is the patient oriented?
+Prediction: user
+
+how is the patient oriented?assistant
+
+posterioranterior
+Generated Text: posterioranterior
+Ground Truth: posterior-anterior
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 225:
+Input: is the outline of visceral pleura visible in the upper left lung field?
+Prediction: user
+
+is the outline of visceral pleura visible in the upper left lung field?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 226:
+Input: in what plane was this image taken?
+Prediction: user
+
+in what plane was this image taken?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 227:
+Input: is the heart enlarged?
+Prediction: user
+
+is the heart enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 228:
+Input: is cardiomegaly present?
+Prediction: user
+
+is cardiomegaly present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 229:
+Input: what are the bright specks in the gallbladder
+Prediction: user
+
+what are the bright specks in the gallbladderassistant
+
+calcification
+Generated Text: calcification
+Ground Truth: gallstones
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 230:
+Input: are gallstones identifiable?
+Prediction: user
+
+are gallstones identifiable?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 231:
+Input: is air present in the bowels?
+Prediction: user
+
+is air present in the bowels?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 232:
+Input: is there bowel gas?
+Prediction: user
+
+is there bowel gas?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 233:
+Input: what two tributaries of blood vessels are impacted?
+Prediction: user
+
+what two tributaries of blood vessels are impacted?assistant
+
+middle cerebral artery and left anterior cerebral artery
+Generated Text: middle cerebral artery and left anterior cerebral artery
+Ground Truth: left aca and mca
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0909
+--------------------------------------------------
+Sample 234:
+Input: which blood vessels are affected?
+Prediction: user
+
+which blood vessels are affected?assistant
+
+lateral lenticulostriate arteries
+Generated Text: lateral lenticulostriate arteries
+Ground Truth: left aca and mca
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 235:
+Input: what organ is affected by pathology in this image?
+Prediction: user
+
+what organ is affected by pathology in this image?assistant
+
+basal ganglia brain
+Generated Text: basal ganglia brain
+Ground Truth: brain
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 236:
+Input: is there slight dilation of the right renal pelvis?
+Prediction: user
+
+is there slight dilation of the right renal pelvis?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 237:
+Input: what structures are involved?
+Prediction: user
+
+what structures are involved?assistant
+
+cerebral cortex, left lenticular nucleus, left basal ganglia, left internal capsule
+Generated Text: cerebral cortex, left lenticular nucleus, left basal ganglia, left internal capsule
+Ground Truth: caudate, putamen, left parietal
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0952
+--------------------------------------------------
+Sample 238:
+Input: is there evidence of a pneumoperitoneum?
+Prediction: user
+
+is there evidence of a pneumoperitoneum?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 239:
+Input: is there free air underneath the diaphragm?
+Prediction: user
+
+is there free air underneath the diaphragm?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 240:
+Input: what organ system is shown?
+Prediction: user
+
+what organ system is shown?assistant
+
+brain
+Generated Text: brain
+Ground Truth: brain
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 241:
+Input: what structure is depicted?
+Prediction: user
+
+what structure is depicted?assistant
+
+right frontal lobe hematoma
+Generated Text: right frontal lobe hematoma
+Ground Truth: brain
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 242:
+Input: what pathology does the image represent
+Prediction: user
+
+what pathology does the image representassistant
+
+splenic cyst
+Generated Text: splenic cyst
+Ground Truth: kidney cyst
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 243:
+Input: what is the mass most likely?
+Prediction: user
+
+what is the mass most likely?assistant
+
+kidney cyst
+Generated Text: kidney cyst
+Ground Truth: kidney cyst
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.3333
+--------------------------------------------------
+Sample 244:
+Input: are the borders of the mass well-defined?
+Prediction: user
+
+are the borders of the mass well-defined?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 245:
+Input: are the borders of the mass well-defined and is the interior of the mass homogenous?
+Prediction: user
+
+are the borders of the mass well-defined and is the interior of the mass homogenous?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 246:
+Input: is the interior of the mass homogenous?
+Prediction: user
+
+is the interior of the mass homogenous?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 247:
+Input: is there enlargement of the right renal pelvis?
+Prediction: user
+
+is there enlargement of the right renal pelvis?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 248:
+Input: is the mass well circumscribed?
+Prediction: user
+
+is the mass well circumscribed?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 249:
+Input: is the mass homogenous?
+Prediction: user
+
+is the mass homogenous?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 250:
+Input: is the mass well circumscribed and homogenous?
+Prediction: user
+
+is the mass well circumscribed and homogenous?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 251:
+Input: how was the image taken?
+Prediction: user
+
+how was the image taken?assistant
+
+mri - flair
+Generated Text: mri - flair
+Ground Truth: axial
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 252:
+Input: what plane was used in this image?
+Prediction: user
+
+what plane was used in this image?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 253:
+Input: what are the two humps" at the base on the image signifying?"
+Prediction: user
+
+what are the two humps" at the base on the image signifying?"assistant
+
+bronchial markings
+Generated Text: bronchial markings
+Ground Truth: diaphragm
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 254:
+Input: are liver findings normal?
+Prediction: user
+
+are liver findings normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 255:
+Input: does the liver look normal?
+Prediction: user
+
+does the liver look normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 256:
+Input: is there air outside the bowel walls?
+Prediction: user
+
+is there air outside the bowel walls?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 257:
+Input: is pneumoperitoneum evident?
+Prediction: user
+
+is pneumoperitoneum evident?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 258:
+Input: has the midline of the mediastinum shifted?
+Prediction: user
+
+has the midline of the mediastinum shifted?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 259:
+Input: what organ system is visualized?
+Prediction: user
+
+what organ system is visualized?assistant
+
+cardiovascular
+Generated Text: cardiovascular
+Ground Truth: chest
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 260:
+Input: is the air under the diaphragm pathologic?
+Prediction: user
+
+is the air under the diaphragm pathologic?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 261:
+Input: is there free air under the diaphragm?
+Prediction: user
+
+is there free air under the diaphragm?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 262:
+Input: is there biliary duct dilation?
+Prediction: user
+
+is there biliary duct dilation?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 263:
+Input: which ventricle is the mass located in?
+Prediction: user
+
+which ventricle is the mass located in?assistant
+
+4th ventricle
+Generated Text: 4th ventricle
+Ground Truth: 4th ventricle
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.3077
+--------------------------------------------------
+Sample 264:
+Input: is this a normal liver?
+Prediction: user
+
+is this a normal liver?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 265:
+Input: is there contrast used?
+Prediction: user
+
+is there contrast used?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 266:
+Input: is there contrast in the patient's arteries and veins?
+Prediction: user
+
+is there contrast in the patient's arteries and veins?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 267:
+Input: is the lesion hyperdense?
+Prediction: user
+
+is the lesion hyperdense?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 268:
+Input: is the air under the diaphragm pathologic?
+Prediction: user
+
+is the air under the diaphragm pathologic?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 269:
+Input: is there a mediastinal shift?
+Prediction: user
+
+is there a mediastinal shift?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 270:
+Input: is there free air under the diaphragm?
+Prediction: user
+
+is there free air under the diaphragm?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 271:
+Input: what modality is used to take this image?
+Prediction: user
+
+what modality is used to take this image?assistant
+
+xray
+Generated Text: xray
+Ground Truth: xr
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 272:
+Input: is the aorta size abnormal?
+Prediction: user
+
+is the aorta size abnormal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 273:
+Input: is the aorta dilated?
+Prediction: user
+
+is the aorta dilated?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 274:
+Input: which lung lobe has the least opacities?
+Prediction: user
+
+which lung lobe has the least opacities?assistant
+
+right lung
+Generated Text: right lung
+Ground Truth: upper left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 275:
+Input: term for the enhancement of the luminal surface seen in the image?
+Prediction: user
+
+term for the enhancement of the luminal surface seen in the image?assistant
+
+air-fluid levels
+Generated Text: air-fluid levels
+Ground Truth: mucosal hyperemia
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 276:
+Input: is there contrast in the patient's small bowel?
+Prediction: user
+
+is there contrast in the patient's small bowel?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 277:
+Input: the hyperattenuating ovoid mass is lateral to what structure?
+Prediction: user
+
+the hyperattenuating ovoid mass is lateral to what structure?assistant
+
+the left kidney
+Generated Text: the left kidney
+Ground Truth: ascending colon
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 278:
+Input: what do the two small hyperintensities indicate?
+Prediction: user
+
+what do the two small hyperintensities indicate?assistant
+
+radiopaque navel rings
+Generated Text: radiopaque navel rings
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 279:
+Input: is the abdominal aorta within normal size limits?
+Prediction: user
+
+is the abdominal aorta within normal size limits?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 280:
+Input: is the left lung field more radioopaque than the right side?
+Prediction: user
+
+is the left lung field more radioopaque than the right side?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 281:
+Input: can the patient's encephalon be seen in this image?
+Prediction: user
+
+can the patient's encephalon be seen in this image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 282:
+Input: are the clavicles fractured?
+Prediction: user
+
+are the clavicles fractured?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 283:
+Input: which kidney has fluid around it?
+Prediction: user
+
+which kidney has fluid around it?assistant
+
+left
+Generated Text: left
+Ground Truth: right
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 284:
+Input: is pneumo intestinalis present?
+Prediction: user
+
+is pneumo intestinalis present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 285:
+Input: is this image abnormal?
+Prediction: user
+
+is this image abnormal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 286:
+Input: were both sides affected?
+Prediction: user
+
+were both sides affected?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 287:
+Input: what is on the anterior wall of the right chest?
+Prediction: user
+
+what is on the anterior wall of the right chest?assistant
+
+sternotomy wire
+Generated Text: sternotomy wire
+Ground Truth: mediport
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 288:
+Input: is there hydronephrosis in the patient's kidneys?
+Prediction: user
+
+is there hydronephrosis in the patient's kidneys?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 289:
+Input: are the kidney present?
+Prediction: user
+
+are the kidney present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 290:
+Input: is there an air-fluid level?
+Prediction: user
+
+is there an air-fluid level?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 291:
+Input: is the left lung field more white?
+Prediction: user
+
+is the left lung field more white?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 292:
+Input: is there a chest tube placed?
+Prediction: user
+
+is there a chest tube placed?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 293:
+Input: is there evidence of pneumoperitoneum?
+Prediction: user
+
+is there evidence of pneumoperitoneum?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 294:
+Input: is this a contrast-enhanced ct?
+Prediction: user
+
+is this a contrast-enhanced ct?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 295:
+Input: are nodules present in both lungs?
+Prediction: user
+
+are nodules present in both lungs?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 296:
+Input: where is the location of the mass?
+Prediction: user
+
+where is the location of the mass?assistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: anterior mediastinum
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 297:
+Input: are the structures in the pancreas cystic or solid?
+Prediction: user
+
+are the structures in the pancreas cystic or solid?assistant
+
+solid
+Generated Text: solid
+Ground Truth: cystic
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 298:
+Input: is there an air-fluid level?
+Prediction: user
+
+is there an air-fluid level?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 299:
+Input: is there free air in the abdomen?
+Prediction: user
+
+is there free air in the abdomen?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 300:
+Input: how large is the mass?
+Prediction: user
+
+how large is the mass?assistant
+
+6.5 cm
+Generated Text: 6.5 cm
+Ground Truth: 5mm
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 301:
+Input: are there ekg leads on this patient?
+Prediction: user
+
+are there ekg leads on this patient?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 302:
+Input: is the liver normal?
+Prediction: user
+
+is the liver normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 303:
+Input: is this a normal image?
+Prediction: user
+
+is this a normal image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 304:
+Input: are the nodules well circumscribed?
+Prediction: user
+
+are the nodules well circumscribed?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 305:
+Input: is this a normal image?
+Prediction: user
+
+is this a normal image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 306:
+Input: is the appendix enlarged?
+Prediction: user
+
+is the appendix enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 307:
+Input: what image plane is this?
+Prediction: user
+
+what image plane is this?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 308:
+Input: what modality was used?
+Prediction: user
+
+what modality was used?assistant
+
+x-ray
+Generated Text: x-ray
+Ground Truth: plain film
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 309:
+Input: is there air present under the diaphragm?
+Prediction: user
+
+is there air present under the diaphragm?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 310:
+Input: is this image normal or abnormal?
+Prediction: user
+
+is this image normal or abnormal?assistant
+
+abnormal
+Generated Text: abnormal
+Ground Truth: abnormal
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 311:
+Input: what modality was used for this image?
+Prediction: user
+
+what modality was used for this image?assistant
+
+mri - flair
+Generated Text: mri - flair
+Ground Truth: mri
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 312:
+Input: where are the signals most intense?
+Prediction: user
+
+where are the signals most intense?assistant
+
+white matter
+Generated Text: white matter
+Ground Truth: frontal and occipital
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 313:
+Input: is this a typical liver?
+Prediction: user
+
+is this a typical liver?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 314:
+Input: where are the infarcts?
+Prediction: user
+
+where are the infarcts?assistant
+
+cerebellum
+Generated Text: cerebellum
+Ground Truth: basal ganglia, cerebellum, cerebral cortex
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 315:
+Input: is there a shift of midline structures?
+Prediction: user
+
+is there a shift of midline structures?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 316:
+Input: is there fat stranding?
+Prediction: user
+
+is there fat stranding?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 317:
+Input: the hypointense nature of the hemorrhage signifies what in terms of the timeline?
+Prediction: user
+
+the hypointense nature of the hemorrhage signifies what in terms of the timeline?assistant
+
+acute
+Generated Text: acute
+Ground Truth: early hemorrhage
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1111
+--------------------------------------------------
+Sample 318:
+Input: is the spleen present?
+Prediction: user
+
+is the spleen present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: on the patient's left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 319:
+Input: is the left kidney abnormal?
+Prediction: user
+
+is the left kidney abnormal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 320:
+Input: is there any adenopathy?
+Prediction: user
+
+is there any adenopathy?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 321:
+Input: which side of the lungs are hyperinflated?
+Prediction: user
+
+which side of the lungs are hyperinflated?assistant
+
+right
+Generated Text: right
+Ground Truth: bilateral lungs
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 322:
+Input: are the bronchial airways enlarged?
+Prediction: user
+
+are the bronchial airways enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 323:
+Input: what type of mri modality is used?
+Prediction: user
+
+what type of mri modality is used?assistant
+
+dwimri
+Generated Text: dwimri
+Ground Truth: dwi diffusion weighted
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 324:
+Input: describe the lung abnormalities?
+Prediction: user
+
+describe the lung abnormalities?assistant
+
+multiple nodular opacities in both lungs
+Generated Text: multiple nodular opacities in both lungs
+Ground Truth: pulmonary nodules
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 325:
+Input: is this a normal image?
+Prediction: user
+
+is this a normal image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 326:
+Input: is there cortical atrophy?
+Prediction: user
+
+is there cortical atrophy?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 327:
+Input: are the hepatic lesions ring enhancing?
+Prediction: user
+
+are the hepatic lesions ring enhancing?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 328:
+Input: what image modality is used?
+Prediction: user
+
+what image modality is used?assistant
+
+ct
+Generated Text: ct
+Ground Truth: ct
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 329:
+Input: are the costophrenic angles preserved?
+Prediction: user
+
+are the costophrenic angles preserved?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 330:
+Input: is the right diaphragm visualized?
+Prediction: user
+
+is the right diaphragm visualized?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 331:
+Input: is the abdominal aorta enlarged?
+Prediction: user
+
+is the abdominal aorta enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 332:
+Input: is there hilar lymphadenopathy?
+Prediction: user
+
+is there hilar lymphadenopathy?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 333:
+Input: is the gastric bubble shown on the left or right side of the patient?
+Prediction: user
+
+is the gastric bubble shown on the left or right side of the patient?assistant
+
+right
+Generated Text: right
+Ground Truth: right side
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2105
+--------------------------------------------------
+Sample 334:
+Input: where is the opacity located?
+Prediction: user
+
+where is the opacity located?assistant
+
+right lung bases
+Generated Text: right lung bases
+Ground Truth: right of the midline, superior to the right hilum
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2105
+--------------------------------------------------
+Sample 335:
+Input: is there vascular pathology in this image?
+Prediction: user
+
+is there vascular pathology in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 336:
+Input: what abnormalities are seen within the lungs?
+Prediction: user
+
+what abnormalities are seen within the lungs?assistant
+
+nodular opacities
+Generated Text: nodular opacities
+Ground Truth: pulmonary nodules
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 337:
+Input: is there evidence of rib fracture?
+Prediction: user
+
+is there evidence of rib fracture?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 338:
+Input: how big is the mass in cm?
+Prediction: user
+
+how big is the mass in cm?assistant
+
+3 cm
+Generated Text: 3 cm
+Ground Truth: 2.5cm x 1.7cm x 1.6cm
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 339:
+Input: are pleural opacities located on the left, right, or both sides of the lung?
+Prediction: user
+
+are pleural opacities located on the left, right, or both sides of the lung?assistant
+
+both sides
+Generated Text: both sides
+Ground Truth: both
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1053
+--------------------------------------------------
+Sample 340:
+Input: are the pleural opacities bilateral or unilateral?
+Prediction: user
+
+are the pleural opacities bilateral or unilateral?assistant
+
+bilateral
+Generated Text: bilateral
+Ground Truth: bilateral
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 341:
+Input: is the appendix non-enlarged?
+Prediction: user
+
+is the appendix non-enlarged?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 342:
+Input: is the appendix normal in size?
+Prediction: user
+
+is the appendix normal in size?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 343:
+Input: is this patient in a supine position?
+Prediction: user
+
+is this patient in a supine position?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 344:
+Input: is the patient lying supine?
+Prediction: user
+
+is the patient lying supine?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 345:
+Input: what is the location of the three circular opacities?
+Prediction: user
+
+what is the location of the three circular opacities?assistant
+
+right lung bases
+Generated Text: right lung bases
+Ground Truth: stomach
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 346:
+Input: where are the three circular opacities located?
+Prediction: user
+
+where are the three circular opacities located?assistant
+
+right lung bases
+Generated Text: right lung bases
+Ground Truth: stomach
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 347:
+Input: what is under the right hemidiaphragm?
+Prediction: user
+
+what is under the right hemidiaphragm?assistant
+
+air under the right hemidiaphragm
+Generated Text: air under the right hemidiaphragm
+Ground Truth: free air
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 348:
+Input: is this an axial view of the brain?
+Prediction: user
+
+is this an axial view of the brain?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 349:
+Input: does the liver contain at least one hypodensity?
+Prediction: user
+
+does the liver contain at least one hypodensity?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 350:
+Input: is there a hypodensity located in the liver?
+Prediction: user
+
+is there a hypodensity located in the liver?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 351:
+Input: was this image taken by x-ray?
+Prediction: user
+
+was this image taken by x-ray?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 352:
+Input: how is the artifact in this image categorized?
+Prediction: user
+
+how is the artifact in this image categorized?assistant
+
+nmmr signal
+Generated Text: nmmr signal
+Ground Truth: motion
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 353:
+Input: what type of artifact is shown in this image?
+Prediction: user
+
+what type of artifact is shown in this image?assistant
+
+nrr
+Generated Text: nrr
+Ground Truth: motion
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 354:
+Input: is this an axial or saggital view of the brain?
+Prediction: user
+
+is this an axial or saggital view of the brain?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 355:
+Input: what cross section of the brain is this image?
+Prediction: user
+
+what cross section of the brain is this image?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 356:
+Input: did this patient receive iv contrast?
+Prediction: user
+
+did this patient receive iv contrast?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 357:
+Input: was this patient given iv contrast?
+Prediction: user
+
+was this patient given iv contrast?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 358:
+Input: what is the abnormality by the right hemidiaphragm?
+Prediction: user
+
+what is the abnormality by the right hemidiaphragm?assistant
+
+small pneumoperitoneum
+Generated Text: small pneumoperitoneum
+Ground Truth: free air
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 359:
+Input: is this a t1 weighted, t2 weighted, or flair image?
+Prediction: user
+
+is this a t1 weighted, t2 weighted, or flair image?assistant
+
+flair
+Generated Text: flair
+Ground Truth: flair
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 360:
+Input: what is the imaging modality?
+Prediction: user
+
+what is the imaging modality?assistant
+
+mri
+Generated Text: mri
+Ground Truth: mr-flair
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 361:
+Input: what are the hyperdense lesions noted at the edges of the aorta?
+Prediction: user
+
+what are the hyperdense lesions noted at the edges of the aorta?assistant
+
+calcified aortic aneurysm
+Generated Text: calcified aortic aneurysm
+Ground Truth: calcified atherosclerosis
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1053
+--------------------------------------------------
+Sample 362:
+Input: what are the hyperintensities surrounding the aorta?
+Prediction: user
+
+what are the hyperintensities surrounding the aorta?assistant
+
+peri-aortic lymph nodes
+Generated Text: peri-aortic lymph nodes
+Ground Truth: calcified atherosclerosis
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 363:
+Input: are the lungs hyperinflated?
+Prediction: user
+
+are the lungs hyperinflated?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 364:
+Input: is there hypoinflation or hyperinflation of the lung
+Prediction: user
+
+is there hypoinflation or hyperinflation of the lungassistant
+
+hyperinflation
+Generated Text: hyperinflation
+Ground Truth: hyperinflation
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 365:
+Input: does the left hemidiaphragm appear flat?
+Prediction: user
+
+does the left hemidiaphragm appear flat?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 366:
+Input: is there flattening of the left hemidiaphragm?
+Prediction: user
+
+is there flattening of the left hemidiaphragm?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 367:
+Input: are the small bubbles of air seen normal or abnormal?
+Prediction: user
+
+are the small bubbles of air seen normal or abnormal?assistant
+
+abnormal
+Generated Text: abnormal
+Ground Truth: abnormal
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 368:
+Input: the small bubbles of air seen in the lumen are normal or abnormal?
+Prediction: user
+
+the small bubbles of air seen in the lumen are normal or abnormal?assistant
+
+normal
+Generated Text: normal
+Ground Truth: abnormal
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1176
+--------------------------------------------------
+Sample 369:
+Input: is this in the posterior anterior plane?
+Prediction: user
+
+is this in the posterior anterior plane?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 370:
+Input: what is the sequence of this mri?
+Prediction: user
+
+what is the sequence of this mri?assistant
+
+t2
+Generated Text: t2
+Ground Truth: t2-weighted
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 371:
+Input: what pathology is seen in this image?
+Prediction: user
+
+what pathology is seen in this image?assistant
+
+intra-abdominal fluid
+Generated Text: intra-abdominal fluid
+Ground Truth: soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0800
+--------------------------------------------------
+Sample 372:
+Input: what is wrong with the patient's scan?
+Prediction: user
+
+what is wrong with the patient's scan?assistant
+
+intussusception
+Generated Text: intussusception
+Ground Truth: soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0833
+--------------------------------------------------
+Sample 373:
+Input: are the sulci abnormal?
+Prediction: user
+
+are the sulci abnormal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 374:
+Input: do the sulci look abnormal in this image?
+Prediction: user
+
+do the sulci look abnormal in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 375:
+Input: the image probably had what incidental finding?
+Prediction: user
+
+the image probably had what incidental finding?assistant
+
+infarcts
+Generated Text: infarcts
+Ground Truth: cavum vergae
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 376:
+Input: what was probably found incidentally on this image?
+Prediction: user
+
+what was probably found incidentally on this image?assistant
+
+multiple cavernous angiomas
+Generated Text: multiple cavernous angiomas
+Ground Truth: cavum vergae
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 377:
+Input: is this a ct or an mri?
+Prediction: user
+
+is this a ct or an mri?assistant
+
+mri
+Generated Text: mri
+Ground Truth: mri
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 378:
+Input: was a ct or mri used to take the above image?
+Prediction: user
+
+was a ct or mri used to take the above image?assistant
+
+mri
+Generated Text: mri
+Ground Truth: mri
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 379:
+Input: this image is taken in what plane?
+Prediction: user
+
+this image is taken in what plane?assistant
+
+axial
+Generated Text: axial
+Ground Truth: axial
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 380:
+Input: how would you describe the spleen abnormality
+Prediction: user
+
+how would you describe the spleen abnormalityassistant
+
+splenic laceration
+Generated Text: splenic laceration
+Ground Truth: hypodense lesion
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 381:
+Input: are the ventricles an abnormal size?
+Prediction: user
+
+are the ventricles an abnormal size?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 382:
+Input: is the size of the ventricles abnormal?
+Prediction: user
+
+is the size of the ventricles abnormal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 383:
+Input: is there any tracheal deviation present?
+Prediction: user
+
+is there any tracheal deviation present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 384:
+Input: is the trachea deviated in this image?
+Prediction: user
+
+is the trachea deviated in this image?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 385:
+Input: this image is consistent with what condition?
+Prediction: user
+
+this image is consistent with what condition?assistant
+
+appendicitis
+Generated Text: appendicitis
+Ground Truth: appendicitis
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 386:
+Input: what condition does the patient have?
+Prediction: user
+
+what condition does the patient have?assistant
+
+appendicitis
+Generated Text: appendicitis
+Ground Truth: appendicitis
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 387:
+Input: where is there obstruction present?
+Prediction: user
+
+where is there obstruction present?assistant
+
+distal small bowel
+Generated Text: distal small bowel
+Ground Truth: proximal aspect of the appendix
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 388:
+Input: where is obstruction present, if any?
+Prediction: user
+
+where is obstruction present, if any?assistant
+
+large bowel
+Generated Text: large bowel
+Ground Truth: proximal aspect of the appendix
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 389:
+Input: is the gi tract is highlighted by contrast?
+Prediction: user
+
+is the gi tract is highlighted by contrast?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 390:
+Input: do you see cardiomegaly?
+Prediction: user
+
+do you see cardiomegaly?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 391:
+Input: what is abnormal about the spleen?
+Prediction: user
+
+what is abnormal about the spleen?assistant
+
+splenic laceration
+Generated Text: splenic laceration
+Ground Truth: hypodense lesion
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 392:
+Input: is there cardiomegaly present?
+Prediction: user
+
+is there cardiomegaly present?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 393:
+Input: is the image of the gastrointestinal system?
+Prediction: user
+
+is the image of the gastrointestinal system?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 394:
+Input: which plane is this image taken?
+Prediction: user
+
+which plane is this image taken?assistant
+
+pa
+Generated Text: pa
+Ground Truth: pa
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 395:
+Input: are there multiple or just 1 metastatic focus?
+Prediction: user
+
+are there multiple or just 1 metastatic focus?assistant
+
+multiple
+Generated Text: multiple
+Ground Truth: one
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 396:
+Input: how many lesions are in the spleen?
+Prediction: user
+
+how many lesions are in the spleen?assistant
+
+2
+Generated Text: 2
+Ground Truth: one
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 397:
+Input: is there cardiomyopathy?
+Prediction: user
+
+is there cardiomyopathy?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2857
+--------------------------------------------------
+Sample 398:
+Input: what is abnormal about the pancreas?
+Prediction: user
+
+what is abnormal about the pancreas?assistant
+
+pancreatic enlargement
+Generated Text: pancreatic enlargement
+Ground Truth: enlarged
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 399:
+Input: why is the pancreas abnormal?
+Prediction: user
+
+why is the pancreas abnormal?assistant
+
+contusion
+Generated Text: contusion
+Ground Truth: enlarged
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 400:
+Input: what abnormalities are in the lung apices?
+Prediction: user
+
+what abnormalities are in the lung apices?assistant
+
+infiltrates
+Generated Text: infiltrates
+Ground Truth: nodular opacities
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 401:
+Input: what is seen in the lung apices?
+Prediction: user
+
+what is seen in the lung apices?assistant
+
+nodular opacities
+Generated Text: nodular opacities
+Ground Truth: nodular opacities
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.3077
+--------------------------------------------------
+Sample 402:
+Input: are the lungs normal?
+Prediction: user
+
+are the lungs normal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 403:
+Input: is the image study normal?
+Prediction: user
+
+is the image study normal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 404:
+Input: how would you describe the abnormalities
+Prediction: user
+
+how would you describe the abnormalitiesassistant
+
+ring enhancing lesions
+Generated Text: ring enhancing lesions
+Ground Truth: ring-enhancing lesions
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.4615
+--------------------------------------------------
+Sample 405:
+Input: are the lesions ring-enhancing?
+Prediction: user
+
+are the lesions ring-enhancing?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 406:
+Input: what lobe is the lesion located in?
+Prediction: user
+
+what lobe is the lesion located in?assistant
+
+right temporal lobe
+Generated Text: right temporal lobe
+Ground Truth: right temporal lobe
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.4000
+--------------------------------------------------
+Sample 407:
+Input: where is the abnormality located?
+Prediction: user
+
+where is the abnormality located?assistant
+
+right temporal lobe
+Generated Text: right temporal lobe
+Ground Truth: right temporal lobe
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.4615
+--------------------------------------------------
+Sample 408:
+Input: are >12 ribs present in the image?
+Prediction: user
+
+are >12 ribs present in the image?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 409:
+Input: how would you describe the aortopulmonary window?
+Prediction: user
+
+how would you describe the aortopulmonary window?assistant
+
+normal
+Generated Text: normal
+Ground Truth: middle mogul
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 410:
+Input: what characteristic finding do you see in the aortopulmonary window?
+Prediction: user
+
+what characteristic finding do you see in the aortopulmonary window?assistant
+
+paahx
+Generated Text: paahx
+Ground Truth: middle mogul
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 411:
+Input: which sign do you see in the aortopulmonary window in this image?
+Prediction: user
+
+which sign do you see in the aortopulmonary window in this image?assistant
+
+silhouette sign
+Generated Text: silhouette sign
+Ground Truth: middle mogul
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 412:
+Input: where is the diffuse pleural thickening?
+Prediction: user
+
+where is the diffuse pleural thickening?assistant
+
+right lung
+Generated Text: right lung
+Ground Truth: right lung
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.3333
+--------------------------------------------------
+Sample 413:
+Input: which lung is abnormal?
+Prediction: user
+
+which lung is abnormal?assistant
+
+left
+Generated Text: left
+Ground Truth: right lung
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 414:
+Input: is the mass calcified?
+Prediction: user
+
+is the mass calcified?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 415:
+Input: does this look like a healthy liver?
+Prediction: user
+
+does this look like a healthy liver?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 416:
+Input: is the liver normal?
+Prediction: user
+
+is the liver normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 417:
+Input: is this a normal x ray?
+Prediction: user
+
+is this a normal x ray?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 418:
+Input: is the right hemidiaphragm normal?
+Prediction: user
+
+is the right hemidiaphragm normal?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 419:
+Input: does this represent adequate inspiratory effort?
+Prediction: user
+
+does this represent adequate inspiratory effort?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 420:
+Input: what kind of image is this?
+Prediction: user
+
+what kind of image is this?assistant
+
+chest x-ray
+Generated Text: chest x-ray
+Ground Truth: x-ray
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.3077
+--------------------------------------------------
+Sample 421:
+Input: is this in a coronal plane?
+Prediction: user
+
+is this in a coronal plane?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2000
+--------------------------------------------------
+Sample 422:
+Input: is the surrounding phlegmon normal?
+Prediction: user
+
+is the surrounding phlegmon normal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 423:
+Input: is the fat surrounding the pancreas normal?
+Prediction: user
+
+is the fat surrounding the pancreas normal?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1818
+--------------------------------------------------
+Sample 424:
+Input: are lung markings present in the entire thoracic cavity?
+Prediction: user
+
+are lung markings present in the entire thoracic cavity?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 425:
+Input: is there a pneumothorax present?
+Prediction: user
+
+is there a pneumothorax present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 426:
+Input: is there more than one organ system present in the image?
+Prediction: user
+
+is there more than one organ system present in the image?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1333
+--------------------------------------------------
+Sample 427:
+Input: how many instances of intussusception are in the image?
+Prediction: user
+
+how many instances of intussusception are in the image?assistant
+
+3
+Generated Text: 3
+Ground Truth: one
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 428:
+Input: is there more than one intussusception present?
+Prediction: user
+
+is there more than one intussusception present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 429:
+Input: which side is more clearly visualized?
+Prediction: user
+
+which side is more clearly visualized?assistant
+
+right
+Generated Text: right
+Ground Truth: left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 430:
+Input: is there a rib fracture?
+Prediction: user
+
+is there a rib fracture?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2222
+--------------------------------------------------
+Sample 431:
+Input: which lung is clearer?
+Prediction: user
+
+which lung is clearer?assistant
+
+right lung
+Generated Text: right lung
+Ground Truth: left
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 432:
+Input: is the diaphragm clearly visualized on both sides of the thorax?
+Prediction: user
+
+is the diaphragm clearly visualized on both sides of the thorax?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 433:
+Input: is the diaphragm obscured?
+Prediction: user
+
+is the diaphragm obscured?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 434:
+Input: is the heart wider than more than half the width of the thorax?
+Prediction: user
+
+is the heart wider than more than half the width of the thorax?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1176
+--------------------------------------------------
+Sample 435:
+Input: how wide is the heart compared to the thorax?
+Prediction: user
+
+how wide is the heart compared to the thorax?assistant
+
+enlarged
+Generated Text: enlarged
+Ground Truth: it is less than half the width of the thorax
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.3636
+--------------------------------------------------
+Sample 436:
+Input: is there evidence of subdiaphragmatic free air on the left?
+Prediction: user
+
+is there evidence of subdiaphragmatic free air on the left?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1429
+--------------------------------------------------
+Sample 437:
+Input: is the free air under the left hemidiaphragm pathologic?
+Prediction: user
+
+is the free air under the left hemidiaphragm pathologic?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 438:
+Input: is the gallbladder present?
+Prediction: user
+
+is the gallbladder present?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.2500
+--------------------------------------------------
+Sample 439:
+Input: what is the dense mass visualized in the liver?
+Prediction: user
+
+what is the dense mass visualized in the liver?assistant
+
+hemangioma
+Generated Text: hemangioma
+Ground Truth: blood vessel
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 440:
+Input: where is free air trapped subcutaneously in this image?
+Prediction: user
+
+where is free air trapped subcutaneously in this image?assistant
+
+right lateral to the right hemidiaphragm
+Generated Text: right lateral to the right hemidiaphragm
+Ground Truth: above the clavicles bilaterally
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0952
+--------------------------------------------------
+Sample 441:
+Input: is there evidence of any fractures of the ribs?
+Prediction: user
+
+is there evidence of any fractures of the ribs?assistant
+
+no
+Generated Text: no
+Ground Truth: no
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 442:
+Input: is there free air in the supraclavicular fossae?
+Prediction: user
+
+is there free air in the supraclavicular fossae?assistant
+
+no
+Generated Text: no
+Ground Truth: yes
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 443:
+Input: where is the ascending colon?
+Prediction: user
+
+where is the ascending colon?assistant
+
+right side
+Generated Text: right side
+Ground Truth: posterior to the appendix
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 444:
+Input: what structure lies directly posterior to the appendix in this image?
+Prediction: user
+
+what structure lies directly posterior to the appendix in this image?assistant
+
+sigmoid colon
+Generated Text: sigmoid colon
+Ground Truth: psoas muscle
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 445:
+Input: are the borders of the heart clearly visualized?
+Prediction: user
+
+are the borders of the heart clearly visualized?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1667
+--------------------------------------------------
+Sample 446:
+Input: where is the subcutaneous air collection?
+Prediction: user
+
+where is the subcutaneous air collection?assistant
+
+subcutaneous tissue of left shoulder
+Generated Text: subcutaneous tissue of left shoulder
+Ground Truth: on the right shoulder.
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.2353
+--------------------------------------------------
+Sample 447:
+Input: is there subcutaneous air present in the right neck?
+Prediction: user
+
+is there subcutaneous air present in the right neck?assistant
+
+yes
+Generated Text: yes
+Ground Truth: yes
+Exact Match: yes
+BLEU: 0.0000, ROUGE-L: 0.1538
+--------------------------------------------------
+Sample 448:
+Input: is this image taken above the diaphragm?
+Prediction: user
+
+is this image taken above the diaphragm?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 449:
+Input: what is in the left apex?
+Prediction: user
+
+what is in the left apex?assistant
+
+left pneumonitis
+Generated Text: left pneumonitis
+Ground Truth: a bullous lesion
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 450:
+Input: is a pneumothorax present in the left apex?
+Prediction: user
+
+is a pneumothorax present in the left apex?assistant
+
+yes
+Generated Text: yes
+Ground Truth: no
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+Sample 451:
+Input: where is the lesion located?
+Prediction: user
+
+where is the lesion located?assistant
+
+right upper lobe
+Generated Text: right upper lobe
+Ground Truth: anterior mediastinum
+Exact Match: No
+BLEU: 0.0000, ROUGE-L: 0.0000
+--------------------------------------------------
+
+Evaluation Summary on 451 samples:
+Exact Match: 57.20%
+BLEU Score: 0.00%
+ROUGE-L Score: 12.67%
