@@ -1,0 +1,9 @@
+torch
+transformers
+unsloth
+datasets
+trl
+nltk
+rouge-score
+matplotlib
+tqdm
