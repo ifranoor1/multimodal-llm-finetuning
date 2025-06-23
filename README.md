@@ -42,29 +42,34 @@ The following publicly available datasets were used for training and evaluation:
 
 ---
 
-## 5. Setup Environment
+## 4. Set Up Environment
 
-Run the following commands step by step to prepare your environment:
+Follow these steps to set up your environment using **Conda**, your `requirements.txt` file, and the official **Hugging Face** repository for the base model.
 
 ```bash
-# Clone this repository
-git clone https://github.com/your_username/your_repo.git
-cd your_repo
+# 1️⃣ Create a new Conda environment with Python 3.10
+conda create -n vision-llm python=3.10
 
-# (Optional) Create a Python virtual environment
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-# venv\Scripts\activate   # For Windows
+# 2️⃣ Activate the environment
+conda activate vision-llm
 
-# Install PyTorch with CUDA support
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
+# 3️⃣ Install PyTorch with CUDA support (adjust CUDA version as needed)
+# Example: CUDA 11.8
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
-# Install other required packages
-pip install unsloth transformers datasets nltk rouge-score matplotlib tqdm
+# 4️⃣ Install all Python dependencies from requirements.txt
+pip install -r requirements.txt
 
-# Download NLTK tokenizer data
-python -c "import nltk; nltk.download('punkt')"
- ```
+# 5️⃣ Authenticate with your Hugging Face account to access the gated base model
+huggingface-cli login
+
+# 6️⃣ (Optional) If not already installed, set up Git LFS for large files
+conda install -c conda-forge git-lfs
+git lfs install
+
+# 7️⃣ Clone the base Llama-3.2-11B-Vision-Instruct model repository from Hugging Face
+git clone https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct
+
 ---
 
 ## 6. How Finetuning is Done
